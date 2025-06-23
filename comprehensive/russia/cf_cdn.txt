@@ -1,0 +1,20 @@
+------------------------------------------------------------
+ECH
+
+Blocks ECH without outer SNI     : false
+Blocks ECH with uncensored outer SNI : false
+Blocks ECH with empty hostname outer SNI : false
+Blocks ECH with censored outer SNI : true
+Blocks known outer SNI without ECH extension : [usersporn.com]
+Blocks known outer SNI with ECH extension : [cloudflare-ech.com, usersporn.com]
+
+------------------------------------------------------------
+QUIC ECH
+
+Blocks ECH without outer SNI     : false
+Blocks ECH with uncensored outer SNI : false
+Blocks ECH with empty hostname outer SNI : false
+Blocks ECH with censored outer SNI : true
+Blocks known outer SNI without ECH extension : [usersporn.com]
+Blocks known outer SNI with ECH extension : [cloudflare-ech.com, usersporn.com]
+
